@@ -1,8 +1,3 @@
-Here's your properly formatted and corrected `README.md` content:
-
----
-
-````markdown
 # 📣 TechTweetBot
 
 **TechTweetBot** is an automated Twitter bot that fetches the latest technology news, rewrites headlines into tweet-friendly formats using OpenRouter (GPT-3.5-Turbo), and posts them to Twitter with relevant hashtags.
@@ -34,15 +29,14 @@ Here's your properly formatted and corrected `README.md` content:
    ```bash
    git clone https://github.com/yourusername/techtweetbot.git
    cd techtweetbot
-````
 
-2. **Install dependencies**
+**Install dependencies**
 
    ```bash
    pip install tweepy requests feedparser python-dotenv
    ```
 
-3. **Create a `.env` file**
+**Create a `.env` file**
 
    Add your API keys to a new `.env` file in the root directory:
 
@@ -55,7 +49,7 @@ Here's your properly formatted and corrected `README.md` content:
    OPENROUTER_API_KEY=your_openrouter_key
    ```
 
-4. **Run the bot**
+**Run the bot**
 
    ```bash
    python bot.py
